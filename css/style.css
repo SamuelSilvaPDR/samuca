@@ -1,0 +1,288 @@
+
+body {
+    background-color: yellow;
+}
+
+.title {
+    background-color: red;
+    color: green;
+    box-shadow: 5px 5px 5px black;
+    text-align: center;
+    font-size: 50px;
+    border-radius: 50px 0;
+    text-shadow: 5px 5px 5px magenta;
+}
+
+.title:hover:after {
+    content: " \1F44C";
+}
+
+.title:hover:before {
+    content: "\1F44C ";
+}
+
+.minion {
+    border-radius: 100%;
+    border: 5px solid black;
+    transition-duration: 2s;
+
+}
+
+.minion:hover {
+    width: 500px;
+}
+
+#bozo {
+    box-shadow: 5px 5px 5px red;
+}
+
+#lulu {
+    box-shadow: 5px 5px 5px blue;
+}
+
+#xablau {
+    background-color: green;
+    color: red;
+    box-shadow: 20px 20px 20px blue;
+}
+
+#samucabomb {
+    transform: rotate(180deg);
+}
+
+#images {
+    background-color: yellow;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+}
+
+.textoExibicao {
+    font-family: Cursive, serif;
+    font-size: 5px;
+    padding-top: 50px;
+    width: 200px;
+    padding-bottom: 50px;
+    text-shadow: 3px 3px 3px green;
+    transition-duration: 2s;
+
+}
+
+.textoExibicao:hover {
+    font-size: 25px;
+    text-shadow: 7px 8px 5px blue;
+    color: red;
+    text-align: center;
+    width: 100%;
+}
+
+div {
+    font-size: 45px;
+    font-style: italic;
+    color: magenta;
+    background-color: darkblue;
+}
+
+p {
+    font-size: 50px;
+    font-weight: bold;
+    color: purple;
+
+}
+
+.sigamGithub {
+    font-size: 35px;
+    padding: 50px;
+    text-align: center;
+    color: crimson;
+}
+
+#buttonLinkedin{
+    background-color: aqua;
+    color: darkred;
+}
+
+.samucaguei{
+    font-size: 50px;
+    color: red;
+    text-shadow: 5px 5px 5px magenta;
+}
+
+#containerBotoes{
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container{
+    width: 100vw;
+    height: 50vh;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: yellow;
+}
+
+.botoesPadding{
+    padding: 5px;
+}
+
+.button {
+    background-color: red;
+    color: green;
+    border-radius: 35px;
+    border: 1px solid black;
+    padding: 10px;
+    box-shadow: 3px 4px 2px darkred;
+    transition-duration: 0.5s;
+}
+
+
+.button:hover {
+    background-color: darkred;
+    box-shadow: 3px 4px 0 black;
+    color: green;
+}
+
+.button:active{
+    position: relative;
+    box-shadow: none;
+    top: 4px;
+}
+
+#raladinho {
+    max-width: 300px;
+    border-radius: 45px;
+    border: 5px outset darkred;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+}
+
+.samuelBombado {
+    border-radius: 15px;
+    border: 5px groove deeppink;
+    box-shadow: 7px 7px 7px black;
+}
+
+span {
+    border-radius: 50%;
+
+    padding-left: 32%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 32%;
+
+}
+
+.habilidades {
+    background-color: magenta;
+    border-radius: 50%;
+    text-align: center;
+    border: 10px groove green;
+    color: darkgreen;
+    box-shadow: 5px 5px 5px black;
+}
+
+#qualidades{
+    background-color: darkred;
+}
+
+#listaQualidades{
+    background-color: deeppink;
+    color: aqua;
+    border: 8px groove darkblue;
+}
+
+.habilidades:hover span {
+    display: none;
+}
+
+.habilidades:hover:before {
+    content: "LARGA DE SER CURIOSO BIXO";
+}
+
+.habilidades:hover {
+    font-size: 80px;
+    font-family: "DejaVu Math TeX Gyre", sans-serif;
+    background-color: blue;
+    color: red;
+    border: 5px solid black;
+    box-shadow: 10px 10px 10px gray;
+    padding: 80px;
+
+}
+
+.listaHabilidades {
+    background-color: gray;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 3px;
+    padding: 158px;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    transition-duration: 5s;
+}
+
+.listaHabilidades:hover {
+    font-size: 145px;
+
+}
+
+.visao {
+    background-color: red;
+    border-radius: 20%;
+    text-align: center;
+    border: 5px solid black;
+    box-shadow: 20px 20px 20px darkgreen;
+    color: yellow;
+}
+
+.visao:hover {
+    visibility: hidden;
+}
+
+.brunao {
+    border-radius: 50%;
+    border: 10px solid black;
+    box-shadow: 158px 5px 20px pink;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-animation: spin 4s linear infinite;
+    -moz-animation: spin 4s linear infinite;
+    animation: spin 4s linear infinite;
+
+}
+
+.ymca{
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px blue;
+}
+
+
+@-moz-keyframes spin {
+    100% {
+        -moz-transform: rotate(720deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    100% {
+        -webkit-transform: rotate(360deg);
+        transform: rotate(360deg);
+    }
+}
